@@ -1,2 +1,2 @@
-https://kyanoboi.github.io/Eindwerk/Website/Home.html
+https://Kyanoboi.Github.io/Eindwerk/Website/Home.html
 lol
