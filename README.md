@@ -1,2 +1,4 @@
 https://Kyanoboi.Github.io/Eindwerk/Website/Home.html
-lol
+
+
+https://kyanoboi.github.io/Eindwerk/Website/Home.html
