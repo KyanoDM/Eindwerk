@@ -1,1 +1,1 @@
-https://kyanoboi.github.io/Eindwerk/Website/Home.html
+https://kyanoboi.github.io/Eindwerk-main/Website/Home.html
