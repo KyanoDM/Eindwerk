@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/Style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <title>
+            Home | eindwerk
+        </title>
+    </head>
+    <body>
+
+        <div class="left">
+            <div class="teksthome">
+                Kyano DM
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="img/animation.png">
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="img/circuit.png">
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="img/code.png">
+                </div>
+                
+                </div>
+                <br>
+                
+                <div>
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+                
+                <script>
+                let slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 3000); // Change image every 3 seconds
+                }
+                </script>
+        </div>
+        <div class="nav">
+            
+            <div class="navtekst">
+                <ul>
+                    <li><a class="active" href="#About Me">About Me</a></li>
+                    <li><a href="Animation.html"> Animation</a></li>
+                    <li><a href="#ICT & Electorinca Project"> ICT & Electorinca Project</a></li>
+                </ul>
+            </div>
+            <div class="navtekst2">
+                Ik ben Kyano De Maertelaere,
+                <br>
+                een leerling van 
+                Athuneum <br>De Tandem uit Eeklo
+            </div>
+            <div class="navtekst3">
+                Dit is mijn eindwerk van ICT & Electorinca en Webtechnieken.
+            </div>
+            
+
+
+
+        </div>
+         
+    </body>
+</html>
