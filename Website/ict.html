@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head >
+    <link rel="stylesheet" type="text/css" href="css/Style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>ICT & Elektronica | eindwerk</title>
+  </head>
+
+  <body>
+    <div class="left4">
+     <a href="#Inleiding"> Inleiding</a><br>
+     <a href=" #Stappenplan"> Stappenplan</a><br>
+     <a href=" #Planning"> Planning</a><br>
+     <a href="#Bronnen"> Bronnen</a><br>
+     <a href=" #Tinkercad"> Tinkercad Schema</a><br>
+     <a href=" #Uitleg"> Uitleg Code</a><br>
+     <a href="#Voorstelling"> Voorsteling van Project</a><br>
+     <a href=" #Slot"> Slot & Eigen Bevindingen</a><br>
+     <a href=" #Evaluatie"> Eigen Evaluatie</a><br>
+     
+      
+    </div>
+    <div class="nav4" id="back">
+      <div class="navtekst">
+        <ul>
+          <li><a class="active" href="About.html">About Me</a></li>
+          <li><a href="Animation.html"> Animation</a></li>
+          <li>
+            <a href="ict.html"> ICT & Elektronica Project</a>
+          </li>
+          <li><a href="Home.html"> Home</a></li>
+        </ul>
+      </div>
+      <div class="icttekst" id="Inleiding">
+        Inleiding
+      </div>
+      <div class="icttekst1">
+          <br>
+        Ik had origineel een ander project voorbereid,<br> dit was een randomizer, Lennert Dubois vond dit <br>niet goed genoeg dus had hij me geholpen om een ander project te zoeken. <br>Daarna is hij met het idee gekomen om een richting aanwijzer te maken voor <br>fietsers en dergelijke weg gebruikers.
+        Dit project bevat enkele<br> knoppen om de leds  te laten knipperen.
+        
+      </div>
+      <div class="icttekst" id="Stappenplan">
+        Stappenplan
+      </div>
+      <div class="icttekst2">
+        Stap 1
+    </div>
+    <div class="icttekst1">
+        <img src="img/ict1.png"class="ict1">
+        <br><br><br><br><br><br>
+        Plaats de basis van je arduino project.<br>
+        Dit bevat een arduino uno en een breadboard. <br>Verbind het breadboard met de arduino. <br>En verbind daarna de boven en onderkant van de arduino.
+
+    </div>
+    <div class="icttekst2">
+        Stap 2
+    </div>
+    <div class="icttekst1">
+        <img src="img/ict2.png"class="ict2">
+        <br><br><br><br><br>
+        Plaats de basis componenten om het breadboard.<br> Plaats 3 knoppen naast elkaar,<br> vervolgt met 1 transistor onder elke knop. <br>Plaats vervolgens aan de linker en rechter bovenhoek<br> een led met transistor. <br>Verbind vervolgens de kabels zoals op de foto.
+    </div>
+    <div class="icttekst2">
+        Stap 3
+    </div>
+    <div class="icttekst1">
+        <img src="img/ict3.png"class="ict2">
+        <br><br><br><br><br><br>
+        De laatste stap voor de Arduino is om alles<br> te verbinden met de Arduino.
+        <br>Doe alles precies zoals op de foto en je bent klaar.
+        
+    </div><br>
+    <div class="icttekst"id="Planning">
+        Planning
+    </div>
+    <div class="icttekst1">
+        <br>
+        Ik Schat dat ik in totaal ongeveer 24u aan dit project zal werken. <br>
+        De eerste 2 weken ga ik spenderen aan het project zelf op <br>Tinkercad ontwerpen, dit zal zeker 15-u duren. <br>Daarna Ga ik zeker 2-3 uur aan mij word document werken zodat alles er in staat. <br>De resterende uren ga ik werken om alles op mijn website te krijgen. <br>Dit kan lang duren aangezien er best veel data op moet komen.
+        <img src="img/monday2.png"class="monday2">
+        <br> <iframe src="https://view.monday.com/embed/2728948576-e5335fe7cfe74d4f8455c6d5f65c56c9?r=use1" class="monday"style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
+       <iframe src="https://view.monday.com/embed/2728948576-05643d7ba95ab7d559e66600c451705e?r=use1" class="monday1"width=770 height=500 style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
+    </div>
+    <div class="icttekst"id="Bronnen">
+        Bronnen
+    </div><br>
+    <div class="icttekst1">
+       <a href= "https://www.youtube.com/watch?v=PC15jBx2UxI" target="_blank"> https://www.youtube.com/watch?v=PC15jBx2UxI </a>
+        <br>    <a href= "https://www.youtube.com/watch?v=yyG0koj9nNY" target="_blank"> https://www.youtube.com/watch?v=yyG0koj9nNY </a>
+    </div>
+    <div class="icttekst"id="Tinkercad">
+        Tinkercad Schema
+    </div>
+    <br>
+    <img src="img/schema.png"class="schema">
+    <div class="icttekst">
+        <br><br><br><br><br><br><br><br>
+        <div class="oplossing"id=Uitleg>
+        Uitleg Code </div>
+    </div>
+    <div class="icttekst1">
+        <br><br>
+        In dit deel van de code maak ik alle variabelen.
+        <div class="codeuitleg">
+            
+        const int buttonPin = 13;<br>
+        const int buttonPin1 = 12;  <br>
+        const int buttonPin2 = 11; <br>
+
+        int buttonStateKnopLinks = 0;<br>
+        int buttonStateKnopMid = 0;<br>
+        int buttonStateKnopRechts = 0;<br>
+
+        int pink1 = 0;<br>
+        int pink2 = 0;<br>
+        int del = 500;<br>
+        </div> <br><br>
+        In dit deel van de code zeg ik welke pin output en input is.
+        <div class="codeuitleg">
+            
+        void setup()<br>
+        {<br>
+        pinMode(13, INPUT);<br>
+        pinMode(12, INPUT);<br>
+        pinMode(11, INPUT);<br>
+        pinMode(10, OUTPUT);<br>
+        pinMode(9, OUTPUT);<br>
+        }
+        </div> <br><br>
+        In het laatste en grootste deel van de code, <br>
+        zorg ik ervoor dat de variabelen worden ingelezen op de knoppen. <br>
+        Daarna als 1 van de knoppen worden ingedrukt, <br>
+        word de variabel pink op 1 gezet.<br>
+        Als pink vervolgens 1 is gaat het lampje aan de juiste kant beginnen pinken. <br>
+        Als de linker en rechter knop tegelijkertijd op 1 staan, <br>
+        word de delay van het pinker 250ms i.p.v. 500ms. <br>
+        Als de middelste knop vervolgens word ingedrukt, <br>
+        worden de variabelen op 0 gezet, wat er voor zorgt dat de lampjes uit gaan.
+        <div class="codeuitleg">
+            void loop()<br>
+            {<br>
+              buttonStateKnopLinks = digitalRead(buttonPin);<br>
+              buttonStateKnopMid = digitalRead(buttonPin1);<br>
+              buttonStateKnopRechts = digitalRead(buttonPin2);<br>
+              <br>
+              if (buttonStateKnopLinks == HIGH) {<br>
+                pink1 = 1;<br>
+            }<br>
+              <br>
+               if (buttonStateKnopRechts == HIGH) {<br>
+                pink2 = 1;<br>
+            }<br>
+              <br>
+              if (pink1 == 1) {<br>
+                digitalWrite(10, HIGH);<br>
+                delay(del);<br>
+                digitalWrite(10, LOW);<br>
+                delay(del);<br>
+            }<br>
+               if (pink2 == 1) {<br>
+                digitalWrite(9, HIGH);<br>
+                delay(del);<br>
+                digitalWrite(9, LOW);<br>
+                delay(del);<br>
+            }<br>
+               if (buttonStateKnopMid == HIGH) {<br>
+                pink1 = 0;<br>
+                pink2 = 0;<br>
+            }<br>
+              <br>
+              if (pink1 == 1) {<br>
+                if (pink2 == 1) {<br>
+                  del = 250;<br>
+                } else {<br>
+                  del = 500;<br>
+              &nbsp;&nbsp;}<br>
+              &nbsp;}<br>
+            } 
+
+            </div>
+    </div>
+    <div class="icttekst"id="Voorstelling">
+        Voorstelling Van Project
+    </div>
+    <video class="vid" muted autoplay loop>
+        <source src="vid/circuit.mp4" type="video/mp4" />
+      </video>
+      <div class="icttekst1">
+           <br><a href= "https://youtu.be/LCem_x7_TmI" target="_blank" > https://youtu.be/LCem_x7_TmI </a>
+           <br><br><a href="https://www.tinkercad.com/things/ipeoMuKws9B-fantabulous-lahdi-hillar/editel" target="_blank"> https://www.tinkercad.com/things/ipeoMuKws9B-fantabulous-lahdi-hillar/editel</a>
+     </div>
+     <div class="icttekst"id="Slot">
+        Slot & Eigen Bevindingen
+    </div>
+    <div class="icttekst1">
+        <br>
+    Dit is mijn project samengevat in 1 document. <br>
+    Ik vond dit een redelijk leuk project om aan te werken <br>
+    en om eens kennis te maken met Arduin uno.<br>
+    Ik vind dat het project goed is gelukt, <br>
+    alles verliep vlot en voor het meeste zonder problemen. <br> 
+    Ik heb ook ontdekt dat er voor alles een <br>
+    oplossing is als je ver genoeg zoekt.                  
+</div>
+<div class="icttekst"id="Evaluatie">
+   Eigen Evaluatie
+</div>
+<div class="icttekst1">
+    <br>
+    Ik vind in totaal dat ik zeker een 7/10 verdien,<br>
+     het project is allemaal in orde.<br>
+      Het word document is ook volledig dus dit is wat ik vind. <br>
+      Het enige dat beter zou kunnen is het idee. Ik ben ook veel tijd <br>
+      verloren aan het zoeken van mijn project. <br>
+      Maar jij vond het idee voldoende dus nam ik dat maar.             <br>            
+</div>
+
+<div class="backUp">
+    <a href="#back"> Klik om omhoog te gaan.</a>
+   
+</div>
+  </body>
+</html>
